@@ -1,16 +1,25 @@
 {
   "private": true,
-  "name": "worker",
+  "name": "bifrost",
   "version": "1.0.0",
-  "description": "A template for kick starting a Cloudflare Workers project",
+  "description": "A burning rainbow bridge between Midgard (Internet) and Asgard (Cloudflare).",
   "main": "index.js",
+  "repository": "git@github.com:nurseiit/bifrost.git",
   "scripts": {
+    "build": "webpack",
+    "dev": "NODE_ENV=development yarn build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
-  "author": "Kristian Freeman <kristian@kristianfreeman.com>",
+  "author": "Nurseiit A <nurs@unist.ac.kr>",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "@cloudflare/workers-types": "^1.0.9",
+    "prettier": "^1.18.2",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }

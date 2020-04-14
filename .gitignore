@@ -1,6 +1,10 @@
 # System Garbage
 **/.DS_Store
 
+# Worker Files
+dist
+worker
+
 # Logs
 logs
 *.log
