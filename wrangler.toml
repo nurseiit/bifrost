@@ -1,7 +1,10 @@
 name = "bifrost"
 type = "webpack"
-account_id = ""
 workers_dev = true
+account_id = "b0b1572f3338a29eb394f2a173b571c6"
 route = ""
-zone_id = ""
 webpack_config = "webpack.config.js"
+
+[env.production]
+zone_id = "0a68170c3b108252b6e32cbf00d6b4f1"
+route = "bifrost.devnur.me/*"
